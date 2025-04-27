@@ -105,3 +105,6 @@ flowchart TD
 - `abstinence_record.json` はアプリ実行ディレクトリ直下に保存
 - 保存ファイル破損時は安全にスキップしてアプリが起動
 - 現状、禁酒記録以外（達成率表示など）は未実装（今後拡張可能）
+
+## 11. 画面イメージ
+![image](https://github.com/user-attachments/assets/19c34d03-c9ce-4401-9419-a75d667ee7a0)
