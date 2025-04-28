@@ -185,7 +185,7 @@ fun App() {
 }
 
 // カレンダー日付生成
-fun generateCalendar(yearMonth: YearMonth): List<String> {
+public fun generateCalendar(yearMonth: YearMonth): List<String> {
     val days = mutableListOf<String>()
 
     val firstDay = yearMonth.atDay(1)
@@ -205,7 +205,7 @@ fun generateCalendar(yearMonth: YearMonth): List<String> {
 }
 
 // インデックスからLocalDate復元
-fun generateDateFromIndex(yearMonth: YearMonth, weekIndex: Int, dayIndex: Int): LocalDate? {
+public fun generateDateFromIndex(yearMonth: YearMonth, weekIndex: Int, dayIndex: Int): LocalDate? {
     val firstDay = yearMonth.atDay(1)
     val offset = (firstDay.dayOfWeek.value % 7)
     val dayNumber = weekIndex * 7 + dayIndex - offset + 1
